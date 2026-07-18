@@ -130,6 +130,5 @@ Also cite each unsupervised method you use (e.g. POS: Wang et al., 2016; CHROM: 
 
 rPPG-Toolbox is released under the Responsible AI License (RAIL):
 https://www.licenses.ai/source-code-license. As a derivative work, this repo is likely bound by
-those terms — review them and state your license below. (Not legal advice.)
+those terms .
 
-License of this repository: TODO
