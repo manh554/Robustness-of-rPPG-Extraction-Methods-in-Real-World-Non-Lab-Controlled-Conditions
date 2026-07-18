@@ -72,11 +72,3 @@ narrow low range. (See the `plots` branch for these figures.)
   reflect the peak-selection / post-processing stage rather than domain shift alone, and warrants
   a check before drawing strong conclusions.
 
-## Reproducing the plots
-
-The waveform and spectra plots are produced by `tools/plots.py` and written to the run output
-directory; the summary chart is generated from the numbers in the table above.
-
-```bash
-python main.py --mode run --method all --manifest ../cache_rgb/manifest_rgb.csv --fs 30 --outdir ../runs/unsup
-```
