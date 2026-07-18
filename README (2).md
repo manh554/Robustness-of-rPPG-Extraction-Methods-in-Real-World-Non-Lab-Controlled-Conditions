@@ -1,14 +1,5 @@
 # Robustness of rPPG Extraction Methods in Real-World (Non-Lab-Controlled) Conditions
 
-Evaluating how well unsupervised rPPG extraction methods (CHROM, POS, LGI, ...) hold up outside
-controlled lab settings. The pipeline estimates heart rate from face video and compares methods
-across data sources (public lab data vs. self-collected) and across environments, to measure their
-robustness in realistic conditions.
-
-Adapted from the [rPPG-Toolbox](https://github.com/ubicomplab/rPPG-Toolbox): same evaluation
-metrics, but restructured to use a Python config instead of YAML, with a quality-control (QC)
-step for self-collected data.
-
 ## Disclaimer and Scope
 
 - Covers only the unsupervised (non-deep-learning) part of rPPG.
